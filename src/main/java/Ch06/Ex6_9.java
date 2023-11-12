@@ -26,6 +26,5 @@ public class Ex6_9 {
         System.out.println(mm.subtract());
         System.out.println(mm.multiply());
         System.out.println(mm.division());
-
     }
 }
