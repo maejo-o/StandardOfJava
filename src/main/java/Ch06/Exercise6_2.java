@@ -12,15 +12,14 @@ class Student {
     String sname;
     int nn1, nn2, nn3, nn4, nn5;
 
-
     Student(String name, int n1, int n2, int n3, int n4, int n5) {
         super();
-        sname = name;
-        nn1 = n1;
-        nn2 = n2;
-        nn3 = n3;
-        nn4 = n4;
-        nn5 = n5;
+        this.sname = name;
+        this.nn1 = n1;
+        this.nn2 = n2;
+        this.nn3 = n3;
+        this.nn4 = n4;
+        this.nn5 = n5;
     }
     int getTotal() {
         return nn3 + nn4 + nn5;
