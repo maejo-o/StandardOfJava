@@ -44,5 +44,4 @@ public class Exercise6_19 {
         t.volumeUp();
         System.out.println("CH: " + t.channel + ", VOL: " + t.volume);
     }
-
 }
